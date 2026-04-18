@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-cream text-ink font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-navy;
+  }
+
+  ::selection {
+    @apply bg-brass/30 text-navy;
+  }
+}
