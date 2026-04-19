@@ -66,6 +66,10 @@ const config: Config = {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(100%)" },
         },
+        "pulse-ring": {
+          "0%": { transform: "scale(1)", opacity: "0.6" },
+          "80%, 100%": { transform: "scale(1.8)", opacity: "0" },
+        },
       },
       animation: {
         "float-slow": "float-slow 6s ease-in-out infinite",
@@ -74,6 +78,7 @@ const config: Config = {
         "fade-in-up": "fade-in-up 0.6s ease-out both",
         "slide-in-right": "slide-in-right 0.3s ease-out both",
         "slide-out-right": "slide-out-right 0.3s ease-in both",
+        "pulse-ring": "pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
       },
     },
   },
