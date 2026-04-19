@@ -1,4 +1,7 @@
 import { Coverage } from "@/components/sections/Coverage";
+import { DualCTA } from "@/components/sections/DualCTA";
+import { FAQ } from "@/components/sections/FAQ";
+import { FinalCTA } from "@/components/sections/FinalCTA";
 import { Hero } from "@/components/sections/Hero";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { Navigation } from "@/components/sections/Navigation";
@@ -19,6 +22,9 @@ export default function HomePage() {
         <Services />
         <Testimonials />
         <Coverage />
+        <DualCTA />
+        <FAQ />
+        <FinalCTA />
       </main>
     </>
   );
